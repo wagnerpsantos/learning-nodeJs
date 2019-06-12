@@ -1,3 +1,6 @@
-this.ola = 'Fala Pessoal'
-exports.bemVindo = 'bem vindo ao node!!!'
-module.exports.ateLogo = 'ate o proximo exemplo!!!'
+module.exports = {
+  bomDia: 'Bom dia',
+  boaNoite() {
+    return 'Boa noite'
+  }
+}
